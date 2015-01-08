@@ -1,0 +1,62 @@
+body {
+    background-image: url("bg.png");
+    font-family: Lucida, Verdana, sans-serif;
+}
+
+.wrapper{
+	margin:auto;
+}
+.gwt-Label{ 
+   font-weight: bold;
+   color:#ffffff;
+   
+}
+.gwt-CheckBox{ 
+   font-weight: bold;
+   color:#ffffff;
+   
+}
+
+.header{
+	padding-left:30px;
+	padding-top:5px;
+	height:80px;
+	background-color: #333333;
+}
+.mainTitle{
+	color:#ffa500;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.subTitle{
+	margin: 0px 0px 0px 20px;
+	padding: 0px 20px 20px 20px;
+	color: #FFFFFF;
+	line-height: 5px;
+}
+.graphPanel{
+	width:700px;
+	height:700px;
+}
+.content{
+	height:500px;
+	padding:10px;
+}
+.form_content{
+	width:400px;
+	float:left;
+	
+	padding:20px;
+}
+.form_divider{
+	
+	 height:500px;
+	 float:left;
+}
+.graph_content{
+	
+	width:700px;
+	height:700px;
+	float:left;
+	border: 1px solid #FFFFFF;
+}

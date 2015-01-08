@@ -1,0 +1,19 @@
+For the graphs I have generated this semester, the following are some of 
+the parameters I have used:
+1. |V|
+2. |E| (approximate size; when edges are created at random, sometimes 
+same (u,v) will be generated more than once.  I compact the graph at 
+output, but not during generation).
+3. Directed?
+4. DAG?
+5. Maximum and minimum edge weights
+6. Number of negative edges and their range
+7. Grid graphs (layered graphs)
+8. Probability distribution that is nonuniform
+9. Graphs with hidden hamiltonian cycles
+10. Graphs with vertex cover of given size 
+
+
+11. MST of Fixed Range 
+
+

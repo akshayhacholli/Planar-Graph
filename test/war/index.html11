@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>index</title>
+	
+  	<script src="d3.js" charset="utf-8"></script>    
+    <script src="graph-creator.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+  </head>
+
+  <body>
+	<div class="wrapper">
+		<div class="header">
+		
+		<span class="mainTitle">Quick Graphs</span>
+		<span class="subTitle"><h4>create.edit.customize. all for the world to see!</h4></span>
+		
+		</div>
+		<div class="content">
+			<div class="form_content">
+				<div id="test1"></div>
+			</div>
+			
+			<div class="graph_content">
+			
+				<div id="graph" class="graphPanel">	
+					
+				</div>
+				<span class="subTitle">All the options to download the graph goes here</span>
+			</div>
+		</div>
+		
+		
+		
+	</div>
+	
+	<script>
+	window.onload = function() {
+    runD3code();
+		};
+	</script>
+	
+  </body>
+</html>

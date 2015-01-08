@@ -1,0 +1,10 @@
+.graph_info {
+	float: left;
+	width: 250px;
+	padding: 25px;
+}
+
+circle { fill: #fc0; stroke: #000; stroke-width: 1.5px; }
+circle.intersection { fill: #0cf; }
+line { stroke: #fc0; stroke-width: 1.5px; }
+line.intersection { stroke: #000; }

@@ -1,0 +1,16 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<form>
+			<div class="row">
+			<input class="form-control" type="text" value="Number of Vertices"/><br/>
+			<input class="form-control" type="text" value="Number of Edges"/><br/>
+			<input id="generatebutton" type="button" class="col-xs-12 btn btn-primary btn-load btn-lg" value="Generate"/>
+			</div>
+		</form>
+	</g:HTMLPanel>
+</ui:UiBinder> 
